@@ -31,9 +31,11 @@ class RandomizedSet {
     }
     
     public int getRandom() {
-        // int idx= (int) Math.random()*al.size();
-        // return al.get(idx);
-        return al.get( rand.nextInt(al.size()) );
+        //Way 1
+        int idx= (int) (Math.random()*al.size());
+        return al.get(idx);
+        //Way 2
+        // return al.get( rand.nextInt(al.size()) );
     }
 }
 
