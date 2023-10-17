@@ -34,8 +34,6 @@ class Solution {
     //         generate2(ans, temp, ar, idx+1, k, n);
     //     }
     // }
-
-
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> ans=new ArrayList<>();
         int ar[]=new int[n];
