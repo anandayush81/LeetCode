@@ -24,5 +24,6 @@ class Solution {
         // Arrays.sort(nums);
         generate(nums, nums.length, 0, ans);
         return ans;
+        
     }
 }
