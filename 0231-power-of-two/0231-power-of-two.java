@@ -3,20 +3,21 @@ class Solution {
         //Maths solution
         // if(n<=0) return false;
         // return ((n&(n-1))==0)? true:false;
-
         
-        if (n <= 0) {
-            return false;
-        }
+     return (Math.log10(n) / Math.log10(2)) % 1 == 0;
         
-        int a = (int) (Math.log(n) / Math.log(2));
-        /*
-            4^a = n
-            a = log(n) to base 4
-            a = log(n) to base e / log(4) to base e
-        */
+//         if (n <= 0) {
+//             return false;
+//         }
         
-        return n == Math.pow(2, a);
+//         int a = (int) (Math.log(n) / Math.log(2));
+//         /*
+//             4^a = n
+//             a = log(n) to base 4
+//             a = log(n) to base e / log(4) to base e
+//         */
+        
+//         return n == Math.pow(2, a);
         
         
         // if(n==0) return false;
