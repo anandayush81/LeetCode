@@ -4,7 +4,7 @@ class Solution {
         // if(n==0) return false;
         // return Math.floor(Math.log(n)/Math.log(4))==Math.ceil(Math.log(n)/Math.log(4));
 
-
+        if(n<=0) return false;
         if((n&(n-1))!=0) return false;
         return (n-1)%3==0;
 
