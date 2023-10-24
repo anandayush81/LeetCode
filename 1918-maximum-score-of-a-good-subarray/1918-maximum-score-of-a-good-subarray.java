@@ -68,8 +68,8 @@ class Solution {
         // System.out.println(Arrays.toString(rg));
         int maxi=Integer.MIN_VALUE;
         for(int i=0;i<heights.length;i++){
-            int sl=ls[i]+1;
-            int sr=rs[i]-1;
+            int sl=ls[i]+1; //left end of the sub array that we will use for calculation
+            int sr=rs[i]-1; //right end of the sub array that we will use for calculation
             if(sl<=k && sr>=k){
                 int area=heights[i]*(sr-sl+1);
                 maxi=Math.max(maxi,area);
