@@ -5,7 +5,7 @@ class Solution {
         int l=0,r=n-1;
         while(l<=r){
             int mid=(l+r)/2;
-            System.out.println("mid is "+mid);
+            // System.out.println("mid is "+mid);
             if(a[mid]>=a[0])
                 l=mid+1;
             else{
@@ -14,6 +14,5 @@ class Solution {
             }
         }
         return (ans==-1)?a[0]:a[ans];
-        
     }
 }
