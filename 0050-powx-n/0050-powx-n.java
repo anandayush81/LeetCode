@@ -8,16 +8,13 @@ class Solution {
         double a=solve(x, n/2);
         // if(n%2==0) return a*a;
         //     else return a*a*(1/x);
-
-        if(n<0){
-            if(n%2==0){
-                return (a*a);
-            }
-            else return (a*a*(1/x));
-        }
+        double d=a*a;
+        if(n%2==0)
+        return d;
+            
         else{
-            if(n%2==0) return a*a;
-            else return a*a*x;
+            if(n<0) return d*(1/x);
+            else return d*x;
         }
         
     }
