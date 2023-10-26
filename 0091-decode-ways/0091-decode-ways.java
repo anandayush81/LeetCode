@@ -1,5 +1,6 @@
 class Solution {
-    int dp[];
+    //This is similar to Palindrome partitioning problem, and here the #cuts is not defined.
+    int dp[];//dp[i]=#ways to decode starting from i
     private int solve(String s, int idx, int n){
         if(idx>=n) return 1;
         if(dp[idx]!=-1) return dp[idx];
@@ -14,13 +15,14 @@ class Solution {
                 cnt+=solve(s,i+1,n);
             }
             else if(str.length()==2 && str.charAt(0)!='0'){
-                int val=Integer.parseInt(str);
+                // int val=Integer.parseInt(str);
+                int val=Integer.valueOf(str);
                 if(val>=1 && val<=26){
                     cnt+=solve(s,i+1,n);
                 }
             }
-
-
+            //note how we're not doing any backtrackig step here like temp.remove(size-1);
+            //this is bcoz temp.remove() is not needed, and the "not take" / "don't pick" part happens by default in the for loop
         }
         return dp[idx]=cnt;
     }
