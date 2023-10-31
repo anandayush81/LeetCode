@@ -7,7 +7,7 @@ class Solution {
         return false;
     }
     public boolean validPalindrome(String s) {
-        return solve(s,0,s.length()-1, 1);
-        
+        int cnt=1; //Number of violations allowed
+        return solve(s,0,s.length()-1, cnt);
     }
 }
