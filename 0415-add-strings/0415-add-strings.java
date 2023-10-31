@@ -18,8 +18,12 @@ class Solution {
             int sum=carry+s1.charAt(i)-'0';
             int val=sum%10;
             carry=sum/10;
-            ans.append(val);
+            ans.append(val);         
             i--;
+            if(carry==0){
+                ans.append(new StringBuilder(s1.substring(0,i+1)).reverse());
+                break;
+            }
         }
         while(j>=0){
 
@@ -28,6 +32,10 @@ class Solution {
             carry=sum/10;
             ans.append(val);
             j--;
+            if(carry==0){
+                ans.append(new StringBuilder(s2.substring(0,j+1)).reverse());
+                break;
+            }
         }
         if(carry!=0)
         ans.append(carry);
