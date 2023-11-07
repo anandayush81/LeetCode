@@ -14,11 +14,14 @@ class Solution {
         //         temp.deleteCharAt(temp.length()-1);
         //     }
         // }
+
         char ch=d.charAt(idx);
         String str=map.get(ch);
         for(int i=0;i<str.length();i++){
             temp.append(str.charAt(i));
             solve(d,idx+1,n,ans,temp);
+            //StringBuilder is an object and not a primitive type like String
+            //So we need to undo the changes
             temp.deleteCharAt(temp.length()-1);
         }
 
