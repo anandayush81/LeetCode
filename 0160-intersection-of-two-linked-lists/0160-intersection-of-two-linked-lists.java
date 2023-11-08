@@ -11,7 +11,7 @@
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if(headA==headB) return headA;
+        // if(headA==headB) return headA;
         int len1=0, len2=0;
         ListNode c=headA;
         while(c!=null){
