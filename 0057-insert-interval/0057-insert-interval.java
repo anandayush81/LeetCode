@@ -8,6 +8,10 @@ class Solution {
 	        i++;
 	    }
 	    
+
+
+
+			
 	    // merge all overlapping intervals to one considering newInterval
 	    while (i < intervals.length && intervals[i][0] <= newInterval[1]) {
 	    	// we could mutate newInterval here also
