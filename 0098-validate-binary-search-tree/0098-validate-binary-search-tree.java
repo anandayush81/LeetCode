@@ -50,17 +50,37 @@
 // }
 
 //another good solution
+// public class Solution {
+//     public boolean isValidBST(TreeNode root) {
+//         return helper(root, null, null);
+//     }
+//     boolean helper(TreeNode root, Integer min, Integer max) {
+//         if (root == null)
+//             return true;  
+//         if ((min != null && root.val <= min) || (max != null && root.val >= max))
+//             return false; 
+//         return helper(root.left, min, root.val) && helper(root.right, root.val, max);
+//     }
+// }
+
+//using prev in bst inorder traversal
 public class Solution {
-    public boolean isValidBST(TreeNode root) {
-        return helper(root, null, null);
-    }
-    boolean helper(TreeNode root, Integer min, Integer max) {
+    TreeNode prev;
+    private boolean inorder(TreeNode root) {
         if (root == null)
             return true;
+        if(inorder(root.left)==false) return false;
+        if(prev!=null){
+            if(root.val<=prev.val) return false;
+        }
+        prev=root;
+        if(inorder(root.right)==false) return false;
+        return true;
         
-        if ((min != null && root.val <= min) || (max != null && root.val >= max))
-            return false;
-        
-        return helper(root.left, min, root.val) && helper(root.right, root.val, max);
     }
+    public boolean isValidBST(TreeNode root) {
+        prev=null;
+        return inorder(root);
+    }
+    
 }
