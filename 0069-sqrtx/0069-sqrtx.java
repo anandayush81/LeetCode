@@ -11,7 +11,9 @@ class Solution {
                 return mid;
             }
             else if((long)mid*mid<(long)x){
-                ans=mid;
+                ans=mid;//here we're storing ans=mid coz ques is asking for rounded down to the nearest integer
+                //if the question had asked for exact integer (i.e. for perfect square's root) we wouldnt store it
+                //we'd just directly return as we have in line 11
                 l=mid+1;
             }
             else r=mid-1;
