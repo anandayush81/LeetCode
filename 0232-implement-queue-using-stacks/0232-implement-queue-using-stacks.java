@@ -24,11 +24,12 @@ class MyQueue {
     }
     
     public int peek() {
-        if (output.empty())
+        if (output.empty()){
             while (input.empty() == false) {
                 output.push(input.peek());
                 input.pop();
             }
+        }
         return output.peek();
     }
     
