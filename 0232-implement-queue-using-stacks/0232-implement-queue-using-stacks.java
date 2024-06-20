@@ -10,11 +10,12 @@ class MyQueue {
     }
     
     public int pop() {
-        if (output.empty())
+        if (output.empty()){
             while (input.empty() == false) {
                 output.push(input.peek());
                 input.pop();
             }
+        }
 
 
         int x = output.peek();
