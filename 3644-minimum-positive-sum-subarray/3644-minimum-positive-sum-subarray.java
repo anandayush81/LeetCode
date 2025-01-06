@@ -9,6 +9,7 @@ class Solution {
             }
             else if((r-l+1)==k){
                 s+=ar[r];
+                System.out.println("Subarray sum for ith window of size k = "+ k + " is "+ s);
                 if(s>0)
                     minpossum=Math.min(minpossum,s);
                 s-=ar[l];
@@ -17,7 +18,7 @@ class Solution {
             }
 
         }
-        System.out.println("For k = "+ k + " min pos sum is "+ minpossum);
+        System.out.println(" ### For k = "+ k + " min pos sum is "+ minpossum);
         return minpossum;
 
     }
