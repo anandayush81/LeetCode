@@ -45,8 +45,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/anandayush81/LeetCode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
+| [2715-k-items-with-the-maximum-sum](https://github.com/anandayush81/LeetCode/tree/master/2715-k-items-with-the-maximum-sum) |
 ## Greedy
 |  |
 | ------- |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/anandayush81/LeetCode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
+| [2715-k-items-with-the-maximum-sum](https://github.com/anandayush81/LeetCode/tree/master/2715-k-items-with-the-maximum-sum) |
 <!---LeetCode Topics End-->
