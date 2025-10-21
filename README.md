@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/anandayush81/LeetCode/tree/master/0041-first-missing-positive) |
 | [1524-string-matching-in-an-array](https://github.com/anandayush81/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/anandayush81/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2465-shifting-letters-ii](https://github.com/anandayush81/LeetCode/tree/master/2465-shifting-letters-ii) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/anandayush81/LeetCode/tree/master/0041-first-missing-positive) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/anandayush81/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Counting
 |  |
