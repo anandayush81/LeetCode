@@ -6,6 +6,10 @@
 
 //(x+y)mod m=((x mod m)+(y mod m))mod m
 
+//[1]=row 0 of pascal triangle
+//[1,1]=row 1
+//[1,2,1]=row 2
+
 class Solution {
     public boolean hasSameDigits(String s) {
         int n = s.length();
@@ -13,7 +17,8 @@ class Solution {
         int[] digits = new int[n];
         for (int i = 0; i < n; i++) digits[i] = s.charAt(i) - '0';
 
-        int[] row = new int[k + 1];
+        // int[] row = new int[k + 1];
+        int[] row = new int[1];
         row[0] = 1;
         for (int r = 1; r <= k; r++) {
             int[] next = new int[r + 1];
