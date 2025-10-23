@@ -22,3 +22,33 @@ class Solution {
         
     }
 }
+
+/*
+here input array is nums = [1,2,3,4,5], so we have to construct a pascal triangle row with the same number of elements
+i.e. [1, 4, 6, 4, 1], so that every individual elt will multiply with each other one at a time and give one integer
+as a result.
+
+here we have one output = [1*1 + 4*2 + 6*3 + 4*4 + 1*5]
+
+if we wanted to stop as 2 elts in my final array like in this question: https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/
+
+then we would need to construct the pascal array with 1 less elt than input array so that we could something like this:
+pascal array: [1, 3, 3, 1]; nums = [1,2,3,4,5]
+
+[(1*1+ 3*2 + 3*3 + 1*4), (1*2 + 3*3 +  3*4  + 1*5)]
+
+
+“In Pascal triangle we only have one 1 2 1, right? Why do we see two here?”
+✔️ Correct — there is only one row [1, 2, 1] in Pascal’s triangle.
+✔️ But in our operation, we apply that same pattern multiple times,
+once for each position in the sequence (each “window” of size 3).
+
+Hence you see two results, both using [1, 2, 1].
+
+
+*/
+
+
+
+
+
