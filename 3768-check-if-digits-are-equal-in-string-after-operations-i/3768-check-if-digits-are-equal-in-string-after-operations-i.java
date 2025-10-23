@@ -19,13 +19,21 @@ class Solution {
             row = next;
         }
 
+        // int first = 0, second = 0;
+        // for (int i = 0; i <= k; i++) {
+        //     // first = (first + row[i] * digits[i]) % 10;
+        //     // second = (second + row[i] * digits[i + 1]) % 10;
+        // }
+        // return first == second;
+
         int first = 0, second = 0;
         for (int i = 0; i <= k; i++) {
-            first = (first + row[i] * digits[i]) % 10;
-            second = (second + row[i] * digits[i + 1]) % 10;
+            
+            first = (first + row[i] * digits[i]) ;
+            second = (second + row[i] * digits[i + 1]) ;
         }
 
-        return first == second;
+        return first%10 == second%10;
     }
 }
 
