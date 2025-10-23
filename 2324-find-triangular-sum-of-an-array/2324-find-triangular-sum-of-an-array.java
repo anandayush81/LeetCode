@@ -2,9 +2,9 @@ class Solution {
     public int triangularSum(int[] nums) {
         int n=nums.length;
         int k=n-1;
-
         int pascal[]=new int[1];
         pascal[0]=1;
+        //pascal row number 1 will have 2 elts (1,1), row 2 will have 3 elts ( 1,2,1) etc....
         for (int row=1;row<=k;row++){
             int temp[]=new int[row+1];
             temp[0]=1; temp[row]=1;
