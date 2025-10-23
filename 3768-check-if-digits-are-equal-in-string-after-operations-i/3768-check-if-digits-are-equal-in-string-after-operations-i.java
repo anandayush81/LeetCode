@@ -1,5 +1,11 @@
 //Pascal Triangle and Binomial Coeffcient Solution:
 //https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/solutions/7293868/pascal-s-triangle-combinatorial-modulo-arithmetic-java/
+
+
+//proof that mod can be taken either at every step or at the end: https://chatgpt.com/c/68fa4dbe-1320-8320-bd13-5d7f5e37a3bf
+
+//(x+y)mod m=((x mod m)+(y mod m))mod m
+
 class Solution {
     public boolean hasSameDigits(String s) {
         int n = s.length();
