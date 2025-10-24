@@ -39,15 +39,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0041-first-missing-positive](https://github.com/anandayush81/LeetCode/tree/master/0041-first-missing-positive) |
+| [2174-next-greater-numerically-balanced-number](https://github.com/anandayush81/LeetCode/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/anandayush81/LeetCode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/anandayush81/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Counting
 |  |
 | ------- |
+| [2174-next-greater-numerically-balanced-number](https://github.com/anandayush81/LeetCode/tree/master/2174-next-greater-numerically-balanced-number) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/anandayush81/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Math
 |  |
 | ------- |
+| [2174-next-greater-numerically-balanced-number](https://github.com/anandayush81/LeetCode/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/anandayush81/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/anandayush81/LeetCode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2715-k-items-with-the-maximum-sum](https://github.com/anandayush81/LeetCode/tree/master/2715-k-items-with-the-maximum-sum) |
@@ -77,4 +80,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/anandayush81/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+## Backtracking
+|  |
+| ------- |
+| [2174-next-greater-numerically-balanced-number](https://github.com/anandayush81/LeetCode/tree/master/2174-next-greater-numerically-balanced-number) |
+## Enumeration
+|  |
+| ------- |
+| [2174-next-greater-numerically-balanced-number](https://github.com/anandayush81/LeetCode/tree/master/2174-next-greater-numerically-balanced-number) |
 <!---LeetCode Topics End-->
