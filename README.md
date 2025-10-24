@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1524-string-matching-in-an-array](https://github.com/anandayush81/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/anandayush81/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [2361-calculate-digit-sum-of-a-string](https://github.com/anandayush81/LeetCode/tree/master/2361-calculate-digit-sum-of-a-string) |
 | [2465-shifting-letters-ii](https://github.com/anandayush81/LeetCode/tree/master/2465-shifting-letters-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/anandayush81/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Prefix Sum
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2324-find-triangular-sum-of-an-array](https://github.com/anandayush81/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
+| [2361-calculate-digit-sum-of-a-string](https://github.com/anandayush81/LeetCode/tree/master/2361-calculate-digit-sum-of-a-string) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/anandayush81/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Combinatorics
 |  |
