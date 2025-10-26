@@ -2,7 +2,7 @@ class Bank {
     long bal[];
 
     public Bank(long[] balance) {
-       bal=new long[balance.length];
+    //    bal=new long[balance.length];
        bal=balance;
         
     }
