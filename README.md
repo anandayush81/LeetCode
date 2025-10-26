@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0041-first-missing-positive](https://github.com/anandayush81/LeetCode/tree/master/0041-first-missing-positive) |
 | [0055-jump-game](https://github.com/anandayush81/LeetCode/tree/master/0055-jump-game) |
+| [0494-target-sum](https://github.com/anandayush81/LeetCode/tree/master/0494-target-sum) |
 | [1524-string-matching-in-an-array](https://github.com/anandayush81/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/anandayush81/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/anandayush81/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/anandayush81/LeetCode/tree/master/0055-jump-game) |
+| [0494-target-sum](https://github.com/anandayush81/LeetCode/tree/master/0494-target-sum) |
 ## Simulation
 |  |
 | ------- |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0494-target-sum](https://github.com/anandayush81/LeetCode/tree/master/0494-target-sum) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/anandayush81/LeetCode/tree/master/2174-next-greater-numerically-balanced-number) |
 ## Enumeration
 |  |
