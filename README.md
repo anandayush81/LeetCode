@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/anandayush81/LeetCode/tree/master/0070-climbing-stairs) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/anandayush81/LeetCode/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/anandayush81/LeetCode/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/anandayush81/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/anandayush81/LeetCode/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/anandayush81/LeetCode/tree/master/0070-climbing-stairs) |
 | [0494-target-sum](https://github.com/anandayush81/LeetCode/tree/master/0494-target-sum) |
 ## Simulation
 |  |
@@ -107,4 +109,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2169-simple-bank-system](https://github.com/anandayush81/LeetCode/tree/master/2169-simple-bank-system) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/anandayush81/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
