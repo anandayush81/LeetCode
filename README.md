@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/anandayush81/LeetCode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/anandayush81/LeetCode/tree/master/0070-climbing-stairs) |
 | [0494-target-sum](https://github.com/anandayush81/LeetCode/tree/master/0494-target-sum) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/anandayush81/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Simulation
 |  |
 | ------- |
@@ -113,4 +114,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/anandayush81/LeetCode/tree/master/0070-climbing-stairs) |
+## Graph
+|  |
+| ------- |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/anandayush81/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+## Topological Sort
+|  |
+| ------- |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/anandayush81/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+## Shortest Path
+|  |
+| ------- |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/anandayush81/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 <!---LeetCode Topics End-->
