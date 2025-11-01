@@ -52,7 +52,6 @@ class Solution {
                 else if(dis[v]==dtou+dtov){
                     ways[v] = (ways[v] + ways[u]) % mod;
                 }
-                
             }
         }
         return (int)(ways[n - 1] % mod);
